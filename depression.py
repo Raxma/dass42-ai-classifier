@@ -2,7 +2,8 @@
 import numpy as np
 import pandas as pd
 import joblib
-from pathlib import Path
+from pathlib import Patho
+import os
 
 from sklearn.model_selection import train_test_split, StratifiedKFold, GridSearchCV
 from sklearn.metrics import f1_score, classification_report, confusion_matrix
@@ -19,7 +20,7 @@ from imblearn.over_sampling import SMOTE
 SEED = 42
 TEST_SIZE = 0.2
 N_SPLITS = 3
-DATA_PATH ='C:/Users/rasman khurshid/Downloads/cleaned_dass_data.csv'    # <-- point to your cleaned file
+DATA_PATH = Path(os.getenv("DASS_DATA_PATH", "data/cleaned_dass_data.csv"))
 BEST_DIR = Path("models")
 BEST_DIR.mkdir(exist_ok=True, parents=True)
 
