@@ -1,6 +1,6 @@
 # dass42-ai-classifier
 # DASS-42 Predictive AI Bot
-An automated classification system to identify Depression, Anxiety, and Stress levels using Machine Learning.
+An automated classification system to identify Depression, Anxiety, and Stress levels using Machine Learning. This repository features a complete Machine Learning ecosystem designed to predict Depression, Anxiety, and Stress levels. By implementing advanced oversampling techniques (SMOTE) and hyperparameter optimization (GridSearchCV), the system overcomes significant dataset imbalances to provide reliable, production-ready diagnostic predictions.
 
 ## Project Impact (STAR Analysis)
 - **Situation:** Built a diagnostic tool based on the DASS-42 psychometric scale.
