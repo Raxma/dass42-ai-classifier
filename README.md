@@ -39,3 +39,6 @@ print(out)
 - `/models`: Contains serialized `.pkl` files for Stress, Anxiety, and Depression.
 - `predict.py`: The core inference script with built-in data validation.
 - `stress.py`, `anxiety.py`, `depression.py`: Training scripts and GridSearch logic.
+- Depression script trains Logistic Regression + SMOTE + Scaling
+- Anxiety script trains Logistic Regression (and saves anxiety_best.pkl)
+- Stress script trains Gradient Boosting + SMOTE and saves stress_best.pkl 
