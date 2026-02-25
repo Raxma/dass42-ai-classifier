@@ -17,7 +17,7 @@ Open Python and run:
 
 ```python
 from predict import predict_all
-
+```
 # 42 answers, each must be 1..4
 answers = [1]*42
 
