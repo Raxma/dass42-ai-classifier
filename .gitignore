@@ -50,8 +50,7 @@ desktop.ini
 *.pfx
 
 # =========================
-# Data / Outputs (common in ML projects)
-# Adjust to your structure
+# Data / Outputs
 # =========================
 data/
 datasets/
@@ -67,3 +66,4 @@ reports/
 # models/*.pkl
 # models/*.joblib
 # models/*.onnx
+
